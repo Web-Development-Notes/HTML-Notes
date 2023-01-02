@@ -1,1 +1,5 @@
 # HTML-Notes
+
+
+## License
+LICENSE
