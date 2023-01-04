@@ -1,13 +1,14 @@
-# HTML-Notes
+# Contributions
 
-# First Contributions
+This project aims to simplify and guide the way developers to get help when they have skipped some syntax from their heads or need 
+assistance about how to tackle a specfic thing in HTML.
 
-This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
+If you are looking to make your contribution in helping the world and be useful for others, follow the steps below.
 
 _If you're not comfortable with command line, [here are tutorials using GUI tools.](#tutorials-using-other-tools)_
 
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
+<img align="right" width="300" src="https://i.imgur.com/YifzWyV.png" alt="fork this repository" />
 
 #### If you don't have git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
@@ -35,7 +36,7 @@ where "url you just copied" (without the quotation marks) is the url to this rep
 For example:
 
 ```
-git clone https://github.com/this-is-you/first-contributions.git
+git clone https://github.com/Web-Development-Notes/HTML-Notes.git
 ```
 
 where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
@@ -45,7 +46,7 @@ where `this-is-you` is your GitHub username. Here you're copying the contents of
 Change to the repository directory on your computer (if you are not already there):
 
 ```
-cd first-contributions
+cd HTML-Notes
 ```
 
 Now create a branch using the `git switch` command:
@@ -57,29 +58,41 @@ git switch -c your-new-branch-name
 For example:
 
 ```
-git switch -c add-alonzo-church
+git switch -c add-table
 ```
 
-## Make necessary changes and commit those changes
+## Add information which you feel is missing in HTML-Notes repository and commit those changes
+
+
+Now make a separate folder for adding any new information which you want to share with developers.
+
+For example if you want to add something about tables then make a folder named `Table` then in this folder you will be making a `table.html` in which you will be adding all about you want to share.
+
+### You should include:
+- Code for how to do that thing
+- Comments for explaning the different code pieces
+
+
+
 
 Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
 
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 
+
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
-Add those changes to the branch you just created using the `git add` command:
+Add all those changes to the branch you just created using the `git add` command:
 
 ```
-git add Contributors.md
+git add -A
 ```
 Now commit those changes using the `git commit` command:
 
 ```
-git commit -m "Add your-name to Contributors list"
+git commit -m "Brief description of your changes"
 ```
 
-replacing `your-name` with your name.
 
 ## Push changes to GitHub
 
@@ -91,16 +104,6 @@ git push -u origin your-branch-name
 
 replacing `your-branch-name` with the name of the branch you created earlier.
 
-<details>
-<summary> <strong>If you get any errors while pushing, click here:</strong> </summary>
-
-- ### Authentication Error
-     <pre>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
-  remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-  fatal: Authentication failed for 'https://github.com/<your-username>/first-contributions.git/'</pre>
-  Go to [GitHub's tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on generating and configuring an SSH key to your account.
-
-</details>
 
 ## Submit your changes for review
 
@@ -113,20 +116,6 @@ Now submit the pull request.
 <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
 
 Soon I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
-
-## Where to go from here?
-
-Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll often encounter as a contributor!
-
-Celebrate your contribution and share it with your friends and followers by going to [web app](https://firstcontributions.github.io/#social-share).
-
-You could join our slack team if you need any help or have any questions. [Join slack team](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA).
-
-Now let's get you started with contributing to other projects. We've compiled a list of projects with easy issues you can get started on. Check out [the list of projects in the web app](https://firstcontributions.github.io/#project-list).
-
-### [Additional material](additional-material/git_workflow_scenarios/additional-material.md)
-
-
 
 ## License
 [MIT License](LICENSE)
