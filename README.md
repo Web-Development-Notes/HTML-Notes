@@ -111,4 +111,4 @@ replacing `your-branch-name` with the name of the branch you created earlier.
 - Soon I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
 
 ## License
-[MIT License](LICENSE) 
+[MIT License](LICENSE)
