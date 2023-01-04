@@ -1,4 +1,4 @@
-[![Open Source Love](https://github.com/Web-Development-Notes/HTML-Notes)
+[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/Web-Development-Notes/HTML-Notes)
 [<img align="right" width="150" src="https://firstcontributions.github.io/assets/Readme/join-slack-team.png">](https://join.slack.com/t/webdevelopmentnotes/shared_invite/zt-1mgmuikcl-GS~LTo4ADEVdIuOsTepBPQ)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
