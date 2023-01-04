@@ -1,3 +1,7 @@
+[![Open Source Love](https://github.com/Web-Development-Notes/HTML-Notes)
+[<img align="right" width="150" src="https://firstcontributions.github.io/assets/Readme/join-slack-team.png">](https://join.slack.com/t/webdevelopmentnotes/shared_invite/zt-1mgmuikcl-GS~LTo4ADEVdIuOsTepBPQ)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 # Contributions
 
 This project aims to simplify and guide the way developers to get help when they have skipped some syntax from their heads or need 
